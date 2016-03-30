@@ -4,6 +4,23 @@ Wishlist Component [![Build status...](https://secure.travis-ci.org/soerenmartiu
 A PSR-4 based PHP solution for Wishlists.
 This is part of a series of examples about how to implement microservices with ~~not only~~ PHP.
 
+Installation
+------------
+
+1. clone the repository
+```
+https://github.com/soerenmartius/Wishlist.git
+```
+2. Install dependencies through composer 
+```
+composer install --dev
+```
+--dev flag is optional and only useful if you want to run the tests.
+
+
+
+
+
 
 Testing
 -------
