@@ -24,7 +24,7 @@ class Item implements
     private $id;
 
     /**
-     * @var Wishlist
+     * @var WishlistInterface
      */
     private $wishlist;
 
