@@ -13,7 +13,7 @@ Installation
 2. Install dependencies through composer ```
                                          composer install --dev
                                          ``` 
-3. dev flag is optional and only useful if you want to run the tests.
+   The dev flag is optional and only useful if you want to run the tests.
 
 
 Testing
