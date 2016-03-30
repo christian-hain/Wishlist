@@ -7,15 +7,13 @@ This is part of a series of examples about how to implement microservices with ~
 Installation
 ------------
 
-1. clone the repository
-```
-https://github.com/soerenmartius/Wishlist.git
-```
-2. Install dependencies through composer 
-```
-composer install --dev
-```
---dev flag is optional and only useful if you want to run the tests.
+1. clone the repository ```
+                        https://github.com/soerenmartius/Wishlist.git
+                        ```
+2. Install dependencies through composer ```
+                                         composer install --dev
+                                         ``` 
+3. dev flag is optional and only useful if you want to run the tests.
 
 
 Testing
