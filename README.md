@@ -18,10 +18,6 @@ composer install --dev
 --dev flag is optional and only useful if you want to run the tests.
 
 
-
-
-
-
 Testing
 -------
 
