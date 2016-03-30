@@ -1,7 +1,8 @@
 Wishlist Component [![Build status...](https://secure.travis-ci.org/soerenmartius/Wishlist.png?branch=master)](https://travis-ci.org/soerenmartius/Wishlist)
 ===================
 
-A PSR-4 based PHP solution for Wishlists. This is part of a series of examples about how to implement microservices with ~~ not only ~~ PHP.
+A PSR-4 based PHP solution for Wishlists.
+This is part of a series of examples about how to implement microservices with ~~not only~~ PHP.
 
 
 Testing
