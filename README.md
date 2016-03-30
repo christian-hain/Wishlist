@@ -38,4 +38,4 @@ This component is using [travis-ci](https://travis-ci.org/soerenmartius/Wishlist
 Using scrutinizer-ci for code analysis
 -----------------------------------
 This componente is using [scrutinizer-ci](https://scrutinizer-ci.com/) for code analysis such as code quality and code coverage ( Although code coverage isn't a good indicator for code code ).
-Scrutinizers configuration is stored in **.scrutinizer.yml**.
+Scrutinizers configuration is stored in **.scrutinizer.yml**. For this example we dont use a custom config but we simply rely on scrutinizers default settings.
