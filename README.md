@@ -1,4 +1,4 @@
-Wishlist Component [![Build status...](https://secure.travis-ci.org/soerenmartius/Wishlist.png?branch=master)](https://travis-ci.org/soerenmartius/Wishlist)
+Wishlist Component [![Build status...](https://secure.travis-ci.org/soerenmartius/Wishlist.png?branch=master)](https://travis-ci.org/soerenmartius/Wishlist) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/soerenmartius/Wishlist/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/soerenmartius/Wishlist/?branch=master) [![Code Coverage](https://scrutinizer-ci.com/g/soerenmartius/Wishlist/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/soerenmartius/Wishlist/?branch=master)
 ===================
 
 A PSR-4 based PHP solution for Wishlists.
@@ -33,3 +33,9 @@ Running the tests
 Using travis-ci for builds
 --------------------------
 This component is using [travis-ci](https://travis-ci.org/soerenmartius/Wishlist) for building and running the tests based on the configuration stored in **.travis.yml**.
+
+
+Using scrutinizer-ci for code analysis
+-----------------------------------
+This componente is using [scrutinizer-ci](https://scrutinizer-ci.com/) for code analysis such as code quality and code coverage ( Although code coverage isn't a good indicator for code code ).
+Scrutinizers configuration is stored in **.scrutinizer.yml**.
