@@ -21,12 +21,12 @@ class Item implements
     /**
      * @var mixed
      */
-    private $id;
+    protected $id;
 
     /**
      * @var WishlistInterface
      */
-    private $wishlist;
+    protected $wishlist;
 
     /**
      * {@inheritdoc}

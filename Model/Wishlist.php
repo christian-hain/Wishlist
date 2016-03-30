@@ -24,17 +24,17 @@ class Wishlist implements
     /**
      * @var mixed
      */
-    private $id;
+    protected $id;
 
     /**
      * @var string
      */
-    private $sharingCode;
+    protected $sharingCode;
 
     /**
      * @var $items Collection|Item[]
      */
-    private $items;
+    protected $items;
 
     /**
      * Wishlist constructor.
