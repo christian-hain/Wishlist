@@ -27,11 +27,6 @@ class Wishlist implements
     private $id;
 
     /**
-     * @var mixed
-     */
-    private $customerId;
-
-    /**
      * @var string
      */
     private $sharingCode;
@@ -51,27 +46,7 @@ class Wishlist implements
     }
 
     /**
-     * @return mixed
-     */
-    public function getCustomerId()
-    {
-        return $this->customerId;
-    }
-
-    /**
-     * @param mixed $customerId
-     *
-     * @return WishlistInterface
-     */
-    public function setCustomerId($customerId): WishlistInterface
-    {
-        $this->customerId = $customerId;
-
-        return $this;
-    }
-
-    /**
-     * @return mixed
+     * {@inheritdoc}
      */
     public function getId()
     {
@@ -79,19 +54,7 @@ class Wishlist implements
     }
 
     /**
-     * @param mixed $id
-     *
-     * @return WishlistInterface
-     */
-    public function setId($id): WishlistInterface
-    {
-        $this->id = $id;
-
-        return $this;
-    }
-
-    /**
-     * @return Collection|ItemInterface[]
+     * {@inheritdoc}
      */
     public function getItems(): Collection
     {
@@ -111,7 +74,42 @@ class Wishlist implements
     }
 
     /**
-     * @return string
+     * @param ItemInterface $item
+     *
+     * @return WishlistInterface
+     */
+    public function addItem(ItemInterface $item): WishlistInterface
+    {
+        $item->setWishlist($this);
+        $this->items->add($item);
+
+        return $this;
+    }
+
+    /**
+     * @param ItemInterface $item
+     *
+     * @return WishlistInterface
+     */
+    public function removeItem(ItemInterface $item): WishlistInterface
+    {
+        $this->items->removeElement($item);
+
+        return $this;
+    }
+
+    /**
+     * @param ItemInterface $item
+     *
+     * @return bool
+     */
+    public function hasItem(ItemInterface $item): bool
+    {
+        return $this->items->contains($item);
+    }
+
+    /**
+     * {@inheritdoc}
      */
     public function getSharingCode(): string
     {
@@ -128,5 +126,13 @@ class Wishlist implements
         $this->sharingCode = $sharingCode;
 
         return $this;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getCountedItems(): int
+    {
+        return $this->items->count();
     }
 }

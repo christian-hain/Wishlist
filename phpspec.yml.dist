@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: SoerenMartius\Component\Wishlist
+        psr4_prefix: SoerenMartius\Component\Wishlist
+        src_path: .

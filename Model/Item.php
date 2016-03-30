@@ -1,8 +1,10 @@
 <?php
-/**
- * User: soerenmartius
- * Date: 30/03/16
- * Time: 11:20
+
+/*
+ * (c) Soeren Martius
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
 namespace SoerenMartius\Component\Wishlist\Model;
@@ -27,12 +29,7 @@ class Item implements
     private $wishlist;
 
     /**
-     * @var mixed
-     */
-    private $productId;
-
-    /**
-     * @return mixed
+     * {@inheritdoc}
      */
     public function getId()
     {
@@ -52,27 +49,7 @@ class Item implements
     }
 
     /**
-     * @return mixed
-     */
-    public function getProductId()
-    {
-        return $this->productId;
-    }
-
-    /**
-     * @param mixed $productId
-     *
-     * @return ItemInterface
-     */
-    public function setProductId($productId): ItemInterface
-    {
-        $this->productId = $productId;
-
-        return $this;
-    }
-
-    /**
-     * @return WishlistInterface
+     * {@inheritdoc}
      */
     public function getWishlist(): WishlistInterface
     {
@@ -80,11 +57,9 @@ class Item implements
     }
 
     /**
-     * @param Wishlist $wishlist
-     *
-     * @return ItemInterface
+     * {@inheritdoc}
      */
-    public function setWishlist($wishlist): ItemInterface
+    public function setWishlist(WishlistInterface $wishlist): ItemInterface
     {
         $this->wishlist = $wishlist;
 

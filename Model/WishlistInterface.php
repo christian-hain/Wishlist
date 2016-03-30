@@ -1,8 +1,10 @@
 <?php
-/**
- * User: soerenmartius
- * Date: 30/03/16
- * Time: 11:24
+
+/*
+ * (c) Soeren Martius
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
 namespace SoerenMartius\Component\Wishlist\Model;
@@ -10,8 +12,6 @@ namespace SoerenMartius\Component\Wishlist\Model;
 use Doctrine\Common\Collections\Collection;
 
 /**
- * Interface WishlistInterface
- *
  * @author Soeren Martius <soeren.martius@gmail.com>
  */
 interface WishlistInterface
@@ -22,11 +22,6 @@ interface WishlistInterface
     public function getId();
 
     /**
-     * @return mixed
-     */
-    public function getCustomerId();
-
-    /**
      * @return Collection|ItemInterface[]
      */
     public function getItems(): Collection;
@@ -35,4 +30,9 @@ interface WishlistInterface
      * @return string
      */
     public function getSharingCode(): string;
+
+    /**
+     * @return int
+     */
+    public function getCountedItems(): int;
 }

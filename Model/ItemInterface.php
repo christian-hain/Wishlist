@@ -1,8 +1,10 @@
 <?php
-/**
- * User: soerenmartius
- * Date: 30/03/16
- * Time: 11:24
+
+/*
+ * (c) Soeren Martius
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
 namespace SoerenMartius\Component\Wishlist\Model;
@@ -23,7 +25,7 @@ interface ItemInterface
     public function getWishlist(): WishlistInterface;
 
     /**
-     * @return mixed
+     * @return ItemInterface
      */
-    public function getProductId();
+    public function setWishlist(WishlistInterface $wishlist): ItemInterface;
 }
