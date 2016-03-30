@@ -1,0 +1,23 @@
+{
+    "name": "soerenmartius/wishlist",
+    "type": "library",
+    "description": "Flexible product wishlist management for PHP applications",
+    "keywords": ["shop", "ecommerce", "wishlist"],
+    "homepage": "https://soerenmartius.github.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Soeren Martius",
+            "homepage": "https://soerenmartius.github.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "doctrine/common": ">=2.5-dev,<2.7-dev"
+    },
+    "autoload": {
+        "psr-4": { "SoerenMartius\\Component\\Wishlist\\": "" }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
