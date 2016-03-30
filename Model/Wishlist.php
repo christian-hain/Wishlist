@@ -9,8 +9,7 @@
 
 namespace SoerenMartius\Component\Wishlist\Model;
 
-use Doctrine\Common\Collections\ArrayCollection;
-use Doctrine\Common\Collections\Collection;
+use Doctrine\Common\Collections\{ ArrayCollection, Collection };
 
 /**
  * @author Soeren Martius <soeren.martius@gmail.com>
