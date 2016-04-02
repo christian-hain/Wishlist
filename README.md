@@ -1,4 +1,4 @@
-Wishlist Component [![Build status...](https://secure.travis-ci.org/soerenmartius/Wishlist.png?branch=master)](https://travis-ci.org/soerenmartius/Wishlist) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/soerenmartius/Wishlist/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/soerenmartius/Wishlist/?branch=master)
+Wishlist Component [![Build status...](https://secure.travis-ci.org/soerenmartius/Wishlist.png?branch=master)](https://travis-ci.org/soerenmartius/Wishlist) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/soerenmartius/Wishlist/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/soerenmartius/Wishlist/?branch=master) [![SensioLabsInsight](https://insight.sensiolabs.com/projects/713d9eb4-d8c3-4f85-902e-4f3412dc0b77/mini.png)](https://insight.sensiolabs.com/projects/713d9eb4-d8c3-4f85-902e-4f3412dc0b77)
 ===================
 
 A PSR-4 based PHP solution for Wishlists.
