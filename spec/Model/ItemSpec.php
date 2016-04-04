@@ -1,13 +1,21 @@
 <?php
 
+/*
+ * (c) Soeren Martius
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace spec\SoerenMartius\Component\Wishlist\Model;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
-use SoerenMartius\Component\Wishlist\Model\Item;
-use SoerenMartius\Component\Wishlist\Model\ItemInterface;
-use SoerenMartius\Component\Wishlist\Model\WishlistInterface;
+use SoerenMartius\Component\Wishlist\Model\{ Item, WishlistInterface, ItemInterface };
 
+/**
+ * @author Soeren Martius <soeren.martius@gmail.com>
+ */
 class ItemSpec extends ObjectBehavior
 {
     function it_is_initializable()
@@ -15,7 +23,7 @@ class ItemSpec extends ObjectBehavior
         $this->shouldHaveType(Item::class);
     }
 
-    function it_should_be_soerenmartius_item()
+    function it_should_be_sm_item()
     {
         $this->shouldImplement(ItemInterface::class);
     }
