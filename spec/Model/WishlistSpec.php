@@ -58,7 +58,6 @@ class WishlistSpec extends ObjectBehavior
         $this->getCountedItems()->shouldReturn(0);
     }
 
-
     function it_should_add_items_properly(ItemInterface $item)
     {
         $this->hasItem($item)->shouldReturn(false);

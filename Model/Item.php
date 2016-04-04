@@ -51,7 +51,7 @@ class Item implements
     /**
      * {@inheritdoc}
      */
-    public function getWishlist(): WishlistInterface
+    public function getWishlist()
     {
         return $this->wishlist;
     }

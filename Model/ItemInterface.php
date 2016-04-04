@@ -22,7 +22,7 @@ interface ItemInterface
     /**
      * @return WishlistInterface
      */
-    public function getWishlist(): WishlistInterface;
+    public function getWishlist();
 
     /**
      * @return ItemInterface
